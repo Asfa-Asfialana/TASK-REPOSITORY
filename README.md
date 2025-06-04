@@ -5,27 +5,49 @@
 Selamat datang di **task repository** saya!  
 Repository ini dibuat sebagai dokumentasi perjalanan belajar dan eksplorasi saya dalam dunia pemrograman. Di dalamnya terdapat kumpulan latihan coding dari program Eco Techno Leader. 
 
-### Tujuan utama repository ini:
-- 🧠 Melatih logika dan keterampilan pemrograman secara konsisten  
-- 📂 Menyimpan jejak proses belajar secara terstruktur dan terbuka  
-- 🚀 Menjadi dasar evaluasi dan pengembangan skill ke tahap lanjutan  
+### 🧮 Langkah-Langkah Perhitungan Zeller's Congruence 
+----
+Zeller's Congruence adalah algoritma matematika yang dikembangkan oleh Christian Zeller pada abad ke-19 untuk menghitung hari dalam seminggu dari tanggal tertentu dalam kalender Julian atau Gregorian. Algoritma ini menggunakan aritmetika modular untuk menentukan hari yang sesuai dengan tanggal yang diberikan.
+Rumus Zeller untuk Kalender Gregorian
+Untuk kalender Gregorian, rumus Zeller adalah sebagai berikut:
 
----
 
-## 💬 Masukan dan Kolaborasi
 
-Saya sangat terbuka terhadap saran, ide, dan masukan dari teman-teman yang mampir ke repository ini.
 
-Jika kamu punya ide:
-- Task atau latihan apa lagi yang menarik untuk dicoba?
-- Apakah ada kode saya yang bisa ditulis lebih efisien?
-- Referensi baru untuk belajar atau tantangan pemrograman?
+#### 1. Penyesuaian Bulan dan Tahun:
 
-Silakan kirim *Issue* atau *Pull Request*, saya sangat menghargainya! 🙏
 
----
+Dalam Zeller's Congruence, bulan Januari dan Februari dianggap sebagai bulan ke-13 dan ke-14 dari tahun sebelumnya. Oleh karena itu, jika bulan adalah 1 (Januari) atau 2 (Februari), kita menambahkan 12 ke nilai bulan dan mengurangi 1 dari tahun.
+#### 2. Menghitung Nilai K dan J:
 
-## 👋 Penutup
+
+K adalah dua digit terakhir dari tahun (tahun dalam abad tersebut).
+J adalah dua digit pertama dari tahun (abad).
+Misalnya, untuk tahun 1999:
+K = 1999 % 100 = 99
+J = 1999 // 100 = 19
+
+#### 3. Menghitung Nilai h:
+
+
+
+Rumus ini adalah implementasi dari Zeller's Congruence untuk kalender Gregorian.
+tanggal adalah hari dalam bulan.
+((13 * (bulan + 1)) // 5) menyesuaikan perbedaan jumlah hari dalam bulan.
+K dan K // 4 memperhitungkan tahun dalam abad dan tahun kabisat.
+J // 4 dan -2 * J menyesuaikan perbedaan antara abad.
+% 7 memastikan hasil h berada dalam rentang 0 hingga 6, yang mewakili hari dalam seminggu.
+#### 4. Menentukan Hari dalam Seminggu:
+
+
+Nilai h yang diperoleh digunakan untuk menentukan hari dalam seminggu:
+0: Sabtu
+1: Minggu
+2: Senin
+3: Selasa
+4: Rabu
+5: Kamis
+6: Jumat
 
 Terima kasih telah mengunjungi repository ini!  
 Semoga apa yang saya pelajari dan dokumentasikan di sini bisa berguna, tidak hanya bagi saya, tapi juga bagi siapa pun yang sedang belajar seperti saya. 🚀
