@@ -34,7 +34,7 @@ K dan K // 4 memperhitungkan tahun dalam abad dan tahun kabisat.
 J // 4 dan -2 * J menyesuaikan perbedaan antara abad.
 % 7 memastikan hasil h berada dalam rentang 0 hingga 6, yang mewakili hari dalam seminggu.
 #### 4. Menentukan Hari dalam Seminggu:
-
+![gambar4](https://github.com/Asfa-Asfialana/TASK-REPOSITORY/blob/main/gambar4.png)
 
 Nilai h yang diperoleh digunakan untuk menentukan hari dalam seminggu:
 0: Sabtu
@@ -45,6 +45,7 @@ Nilai h yang diperoleh digunakan untuk menentukan hari dalam seminggu:
 5: Kamis
 6: Jumat
 
+Dengan program Python ini, kita tidak hanya belajar tentang konsep tahun kabisat dan algoritma Zeller's Congruence, tetapi juga memahami bagaimana matematika dapat diaplikasikan dalam kehidupan sehari-hari. Mengetahui hari apa kita lahir atau peristiwa penting lainnya bisa menjadi hal yang menyenangkan dan informatif.
 Terima kasih telah mengunjungi repository ini!  
 Semoga apa yang saya pelajari dan dokumentasikan di sini bisa berguna, tidak hanya bagi saya, tapi juga bagi siapa pun yang sedang belajar seperti saya. 🚀
 
