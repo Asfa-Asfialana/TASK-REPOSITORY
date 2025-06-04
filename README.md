@@ -17,7 +17,7 @@ Untuk kalender Gregorian, rumus Zeller adalah sebagai berikut:
 
 Dalam Zeller's Congruence, bulan Januari dan Februari dianggap sebagai bulan ke-13 dan ke-14 dari tahun sebelumnya. Oleh karena itu, jika bulan adalah 1 (Januari) atau 2 (Februari), kita menambahkan 12 ke nilai bulan dan mengurangi 1 dari tahun.
 #### 2. Menghitung Nilai K dan J:
-![gambar2](https://github.com/Asfa-Asfialana/TASK-REPOSITORY/blob/main/gambar1.png)
+![gambar2](https://github.com/Asfa-Asfialana/TASK-REPOSITORY/blob/main/gambar2.png)
 K adalah dua digit terakhir dari tahun (tahun dalam abad tersebut).
 J adalah dua digit pertama dari tahun (abad).
 Misalnya, untuk tahun 1999:
