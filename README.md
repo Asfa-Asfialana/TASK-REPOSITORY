@@ -10,7 +10,7 @@ Repository ini dibuat sebagai dokumentasi perjalanan belajar dan eksplorasi saya
 Zeller's Congruence adalah algoritma matematika yang dikembangkan oleh Christian Zeller pada abad ke-19 untuk menghitung hari dalam seminggu dari tanggal tertentu dalam kalender Julian atau Gregorian. Algoritma ini menggunakan aritmetika modular untuk menentukan hari yang sesuai dengan tanggal yang diberikan.
 Rumus Zeller untuk Kalender Gregorian
 Untuk kalender Gregorian, rumus Zeller adalah sebagai berikut:
-
+![zeller rumus](https://github.com/Asfa-Asfialana/TASK-REPOSITORY/blob/main/zeller%20rumus.jpg)
 
 
 
