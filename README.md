@@ -12,10 +12,8 @@ Rumus Zeller untuk Kalender Gregorian
 Untuk kalender Gregorian, rumus Zeller adalah sebagai berikut:
 ![zeller rumus](https://github.com/Asfa-Asfialana/TASK-REPOSITORY/blob/main/zeller%20rumus.jpg)
 
-
-
 #### 1. Penyesuaian Bulan dan Tahun:
-
+![gambar1](https://github.com/Asfa-Asfialana/TASK-REPOSITORY/blob/main/gambar1.png)
 
 Dalam Zeller's Congruence, bulan Januari dan Februari dianggap sebagai bulan ke-13 dan ke-14 dari tahun sebelumnya. Oleh karena itu, jika bulan adalah 1 (Januari) atau 2 (Februari), kita menambahkan 12 ke nilai bulan dan mengurangi 1 dari tahun.
 #### 2. Menghitung Nilai K dan J:
