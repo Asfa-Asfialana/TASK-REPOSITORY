@@ -25,8 +25,7 @@ K = 1999 % 100 = 99
 J = 1999 // 100 = 19
 
 #### 3. Menghitung Nilai h:
-
-
+![gambar3](https://github.com/Asfa-Asfialana/TASK-REPOSITORY/blob/main/gambar3.png)
 
 Rumus ini adalah implementasi dari Zeller's Congruence untuk kalender Gregorian.
 tanggal adalah hari dalam bulan.
